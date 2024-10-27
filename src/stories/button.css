@@ -1,0 +1,27 @@
+.storybook-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-width: 5px;
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.storybook-button--large {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+.storybook-button--text:hover {
+  text-decoration: underline;
+}
